@@ -1,0 +1,105 @@
+/* 
+what is css
+cascading style sheet
+css is used to design a web page.
+
+what to study first
+
+css selectors
+
+basic properties color font background
+
+flex box 
+
+grid
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  /* flex-direction: row; */
+  gap: 1rem;
+  height: 100vh;
+}
+
+h1 {
+  color: blue;
+}
+
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+} */
+
+/* .parent1 {
+  background-color: cyan;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+.parent2 {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+} */
+
+/* .child1 {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+} */
+
+/* span {
+  background-color: red;
+  color: black;
+  display: block;
+  width: 500px;
+} */
+
+/* How to center a div 4 methods */
+
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  /* first method */
+  /* margin: auto; */
+
+  /* display: flex; */
+  /* display: grid;
+  place-items: center; */
+  position: relative;
+}
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  /* first method */
+  /* margin: auto;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* margin : top right bottom left */
+/* margin: left top&bottom right*/
+/* margin:left&right top&bottom */
+/* margin:all; */
+
+/* css tutorial from code with harry */
